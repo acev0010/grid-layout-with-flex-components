@@ -64,5 +64,7 @@ body {
     flex-wrap: wrap;    */
   }
 
+  /* removed flex-wrap because it didn't allow me to center items correctly */
+
 
   
