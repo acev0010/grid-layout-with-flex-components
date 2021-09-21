@@ -37,15 +37,15 @@ body {
     font-size: 4rem;
     align-self: center;
     order: 1;
-    margin-bottom: 1px;
-    flex-basis: 100%;
+    padding-bottom: 8px;
+    
   }
 
   h2 {
     order: 2;
-    flex-basis: 100%;
+    
   }
-
+/* flex-basis to help with the aligment */
   p {
     order: 3;
     flex-basis: 100%;
@@ -53,16 +53,16 @@ body {
 
   a {
     order: 4;
-    flex-basis: 100%;
+
   }
 
   .emoji{ 
     display: flex;
-    flex-flow: row wrap;
-    
+    flex-direction: column;
     
     /* display: flex;
     flex-wrap: wrap;    */
   }
+
 
   
